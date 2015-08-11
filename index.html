@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html>
-<title>Page Title</title>
-<base href="http://www.w3schools.com/images/" target="_blank">
-
 <body>
 
-<img src="html5.gif">
 <p>
-Since we have specified a base URL, the browser will look for the image "html5.gif" at "http://www.w3schools.com/images/html5.gif"
+Depending on browser support:<br>
+A color picker can pop-up when you enter the input field.
 </p>
 
-<p><a href="http://www.w3schools.com">W3Schools</a>
-</p>
+<form action="action_page.php">
+  Select your favorite color:
+  <input type="color" name="favcolor" value="#ff0000">
+  <input type="submit">
+</form>
 
-<p>
-The link above opens in a new window. This is because the base target is set to "_blank".
-</p>
+<p><b>Note:</b> type="color" is not supported in Internet Explorer.</p>
 
 </body>
 </html>
